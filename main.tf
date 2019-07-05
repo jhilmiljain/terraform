@@ -1,4 +1,4 @@
-# Terraform state will be stored in S3
+# Appending Terraform state to be stored in AWS-S3
 terraform {
   backend "s3" {
     bucket = "terraform-bucket-pranays"
@@ -7,7 +7,7 @@ terraform {
   }
 }
 
-# Use AWS Terraform provider
+# Using AWS as Terraform provider
 provider "aws" {
   region = "us-east-1"
 }
@@ -21,7 +21,7 @@ resource "aws_instance" "web" {
   instance_type          = "${var.instance_type}"
 }
 
-# Create Security Group for EC2
+# Create Security Group for EC2-Instance
 resource "aws_security_group" "default" {
   name = "terraform-default-sg"
 
