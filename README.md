@@ -104,7 +104,7 @@ Note:- Do not forget to rename your bucket name after pulling this repo in you G
 
 # Now make sure all steps have been followed and verified properly.
 
-# VIOLA YOU'RE GOOD TO GO TO TRIGGER THE JOB.
+# VOILA YOU'RE GOOD TO GO TO TRIGGER THE JOB.
  
  
 *NOTE - PLEASE OPEN THE ISSUE IF YOU FOUND ANY PROBLEN WHILE RUNNING THE JOB AND I SHALL ANSWER YOU FOR THE SAME.
