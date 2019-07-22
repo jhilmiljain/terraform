@@ -22,7 +22,8 @@ Follow standard pipeline to create a workflow and deploy instance with automatio
    AWS Secret Access Key [None]: (put secret key)
 
 
-### Steps for genrating automated workflow via Jenkins:
+
+# Steps for genrating automated workflow via Jenkins:
 
 Bellow are the following requirements
 1. TR installed on Jenkins 0.12 (You can install on your machine if you want to try manually as well)
@@ -44,7 +45,8 @@ Bellow are the following requirements
 Please create a S3 bucket to appaned all the operational data inside it.
 Note:- Do not forget to rename your bucket name after pulling this repo in you GH.
 
-### Steps important for configuring credentials in JK
+# Steps important for configuring credentials in JK
+
 
 # 1. Create Git 
 
