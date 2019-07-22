@@ -21,6 +21,7 @@ Follow standard pipeline to create a workflow and deploy instance with automatio
    
    AWS Secret Access Key [None]: (put secret key)
 
+5. Install TF > 0.12v and follow the genral TF steps for deployment
 
 
 # Steps for genrating automated workflow via Jenkins:
