@@ -36,12 +36,19 @@ Follow standard pipeline to create a workflow and deploy instance with automatio
 Bellow are the following requirements
 1. TR installed on Jenkins 0.12 (You can install on your machine if you want to try manually as well)
 2. Correct plugins installed on Jenkins
+
    a. Workspace Cleanup Plugin
+   
    b. Credentials Binding Plugin
+   
    c. AnsiColor Plugin (optional)
+   
    d. GH Plugin
+   
    e. Pipeline Plugin
+   
    f. Blueocean
+   
    g. Credentials Plugin
 
 3. GH access token
