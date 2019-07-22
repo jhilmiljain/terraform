@@ -83,18 +83,18 @@ Note:- Do not forget to rename your bucket name after pulling this repo in you G
    c. Save
    
    
-### Now you're good to got to create a JK Job
+# Now you're good to got to create a JK Job
 
-# 1. New Item 
-# 2. Enter an Item Name : Any(Whatever you like)
-# 3. Select > Multiple Branch
-# 4. Save
+## 1. New Item 
+## 2. Enter an Item Name : Any(Whatever you like)
+## 3. Select > Multiple Branch
+## 4. Save
 
-### Edit Job [Option 1]
+## Edit Job [Option 1]
 
 *Scroll down to Branch Source > Add source > GitHub > Select the Credentials You've created > Owner : Your Git Owner Name > Repository : Name of the repository > Save
 
-### Edit Job [Option 2] 
+## Edit Job [Option 2] 
 
 #Follow below steps to work in Open Blue Ocean Mode
 1. JK Homepage
