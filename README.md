@@ -66,7 +66,7 @@ Note:- Do not forget to rename your bucket name after pulling this repo in you G
    
    *API URL :
    
-   *Create Credentials : KIND : Secret text > Scope : Global > Secret : Secret token created in GitHub > ID : Any ID > Discription : Any
+   *Create Credentials . KIND : Secret text > Scope : Global > Secret : Secret token created in GitHub > ID : Any ID > Discription : Any
    
    b. Save
    
@@ -78,7 +78,7 @@ Note:- Do not forget to rename your bucket name after pulling this repo in you G
 
    a. Jenkins Homepage > Credentials > System > Store Scopes to Jenkins (Jenkins) > Add Credentials 
    
-   b. *Create Credentials : *KIND : Username and password > Scope : Global > Username : Any > Password : Secret token created in GH > ID : Any ID > Discription : Any
+   b. *Create Credentials > KIND : Username and password > Scope : Global > Username : Any > Password : Secret token created in GH > ID : Any ID > Discription : Any
    
    c. Save
    
@@ -86,7 +86,7 @@ Note:- Do not forget to rename your bucket name after pulling this repo in you G
 
    a. Jenkins Homepage > Credentials > System > Store Scopes to Jenkins (Jenkins) > Add Credentials 
    
-   b. *Create Credentials : *KIND : AWS Credentials > Scope : Global > ID : awsCredentials > Discription : (Optianal) > Access Key ID : Your Access key Id genrated while creating IAM role. > Secret Access Key : Your Secret Access key genrated while creating IAM role.
+   b. *Create Credentials > KIND : AWS Credentials > Scope : Global > ID : awsCredentials > Discription : (Optianal) > Access Key ID : Your Access key Id genrated while creating IAM role. > Secret Access Key : Your Secret Access key genrated while creating IAM role.
    
    c. Save
    
