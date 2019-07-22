@@ -39,12 +39,12 @@ Bellow are the following requirements
    a. Workspace Cleanup Plugin
    b. Credentials Binding Plugin
    c. AnsiColor Plugin (optional)
-   d. GitHub Plugin
+   d. GH Plugin
    e. Pipeline Plugin
    f. Blueocean
    g. Credentials Plugin
 
-3. GitHub access token
+3. GH access token
 4. AWS credentials (Specified IAM Role with valid credential key and encryption key)
 5. S3 bucket
 6. Setup Bucket
@@ -56,23 +56,23 @@ Note:- Do not forget to rename your bucket name after pulling this repo in you G
 # Steps important for configuring credentials in JK
 
 
-# 1. Create Git 
+# 1. Configure GitServer 
 
    a. Create crednetial follow below path:
    
-   Jenkins Homepage > Manage Jenkins > Configure system > Check for GitHub > create Git credentials.
+   Jenkins Homepage > Manage Jenkins > Configure system > Check for GH > create Git credentials.
    
    *Name :
    
    *API URL :
    
-   *Create Credentials : *KIND : Secret text > Scope : Global > Secret : Secret token created in GH > ID : Any ID > Discription : Any
+   *Create Credentials : *KIND : Secret text > Scope : Global > Secret : Secret token created in GitHub > ID : Any ID > Discription : Any
    
    b. Save
    
    c. Verify if the connection is succesfull in between git and jenkins.
    
-   * Credentials verified for user #######, rate limit: 4998 (This error should poped up while testing the connections)
+   * Credentials verified for user #######, rate limit: 4998 (This success error should poped up while testing the connections)
    
 # 2. Create Git username 
 
