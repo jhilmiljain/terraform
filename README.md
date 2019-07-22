@@ -66,7 +66,7 @@ Note:- Do not forget to rename your bucket name after pulling this repo in you G
    
    *API URL :
    
-   *Create Credentials : *KIND : Secret text > Scope : Global > Secret : Secret token created in GitHub > ID : Any ID > Discription : Any
+   *Create Credentials : KIND : Secret text > Scope : Global > Secret : Secret token created in GitHub > ID : Any ID > Discription : Any
    
    b. Save
    
