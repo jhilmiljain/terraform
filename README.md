@@ -49,24 +49,35 @@ Note:- Do not forget to rename your bucket name after pulling this repo in you G
 # 1. Create Git 
 
    a. Create crednetial follow below path:
+   
    Jenkins Homepage > Manage Jenkins > Configure system > Check for GitHub > create Git credentials.
+   
    *Name :
+   
    *API URL :
+   
    *Create Credentials : *KIND : Secret text > Scope : Global > Secret : Secret token created in GH > ID : Any ID > Discription : Any
+   
    b. Save
+   
    c. Verify if the connection is succesfull in between git and jenkins.
+   
    * Credentials verified for user #######, rate limit: 4998 (This error should poped up while testing the connections)
    
 # 2. Create Git username 
 
    a. Jenkins Homepage > Credentials > System > Store Scopes to Jenkins (Jenkins) > Add Credentials 
+   
    b. *Create Credentials : *KIND : Username and password > Scope : Global > Username : Any > Password : Secret token created in GH > ID : Any ID > Discription : Any
+   
    c. Save
    
 # 3. Create AWS Crednetial
 
    a. Jenkins Homepage > Credentials > System > Store Scopes to Jenkins (Jenkins) > Add Credentials 
+   
    b. *Create Credentials : *KIND : AWS Credentials > Scope : Global > ID : awsCredentials > Discription : (Optianal) > Access Key ID : Your Access key Id genrated while creating IAM role. > Secret Access Key : Your Secret Access key genrated while creating IAM role.
+   
    c. Save
    
    
@@ -78,6 +89,7 @@ Note:- Do not forget to rename your bucket name after pulling this repo in you G
 # 4. Save
 
 ### Edit Job [Option 1]
+
 *Scroll down to Branch Source > Add source > GitHub > Select the Credentials You've created > Owner : Your Git Owner Name > Repository : Name of the repository > Save
 
 ### Edit Job [Option 2] 
@@ -88,7 +100,8 @@ Note:- Do not forget to rename your bucket name after pulling this repo in you G
 3. New Pipeline > Where do you store your code? : Select Github > Connect to GitHub : Use same Access token used while configureing git server > Use from list of repository
 4. Save
 
-### Now make sure all steps have been followed and verified properly.
+# Now make sure all steps have been followed and verified properly.
+
 # VIOLA YOU'RE GOOD TO GO TO TRIGGER THE JOB.
  
  
