@@ -2,7 +2,11 @@
 This project has been create to show how the jenkins can automate the terraform flow with the help of jenkins file.
 Follow standard pipeline to create a workflow and deploy instance with automation.
 
+
+
 # Note : Abreviation : GH - GitHub, Terraform - TR, Jenkins - JK
+
+
 
 # Steps for Manual Deployment:
 
@@ -13,6 +17,7 @@ Follow standard pipeline to create a workflow and deploy instance with automatio
    
    * []$ aws configure
    AWS Access Key ID [None]: (Put the access key)
+   
    AWS Secret Access Key [None]: (put secret key)
 
 
