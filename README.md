@@ -4,7 +4,7 @@ Follow standard pipeline to create a workflow and deploy instance with automatio
 
 
 
-# Note : Abreviation : GH - GitHub, Terraform - TR, Jenkins - JK
+*Note : Abreviation : GH - GitHub, Terraform - TR, Jenkins - JK
 
 
 
@@ -40,7 +40,7 @@ Bellow are the following requirements
 5. S3 bucket
 6. Setup Bucket
 
-# Note: 
+*Note: 
 Please create a S3 bucket to appaned all the operational data inside it.
 Note:- Do not forget to rename your bucket name after pulling this repo in you GH.
 
