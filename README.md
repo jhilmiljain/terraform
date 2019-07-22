@@ -15,13 +15,20 @@ Follow standard pipeline to create a workflow and deploy instance with automatio
 3. install AWS CLI
 4. Configure AWS Credential as given below;
    
-   * []$ aws configure
+   []$ aws configure
    
    AWS Access Key ID [None]: (Put the access key)
    
    AWS Secret Access Key [None]: (put secret key)
 
 5. Install TF > 0.12v and follow the genral TF steps for deployment
+   
+   []$ terraform init
+   
+   []$ terraform plan
+   
+   []$ terraform apply
+   
 
 
 # Steps for genrating automated workflow via Jenkins:
