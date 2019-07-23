@@ -20,8 +20,10 @@ Follow standard pipeline to create a workflow and deploy instance with automatio
    AWS Access Key ID [None]: (Put the access key)
    
    AWS Secret Access Key [None]: (put secret key)
+   
+5. Install Git on you machine and pull this repository
 
-5. Install TF > 0.12v and follow the genral TF steps for deployment
+6. Install TF > 0.12v and follow the genral TF steps for deployment
    
    []$ terraform init
    
