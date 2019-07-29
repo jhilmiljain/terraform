@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 # Create EC2 instance
-resource "aws_instance" "web" {
+resource "aws_instance" "web2" {
   ami                    = "${var.ami}"
   key_name               = "${var.key_name}"
   vpc_security_group_ids = ["${aws_security_group.default.id}"]
