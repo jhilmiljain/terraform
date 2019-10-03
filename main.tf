@@ -3,13 +3,13 @@ terraform {
   backend "s3" {
     bucket = "jjainbucket"
     key    = "terraform.tfstate"
-    region = "us-east-1"
+    region = "none"
   }
 }
 
 # Using AWS as Terraform provider
 provider "aws" {
-  region = "us-east-1"
+  region = "none"
 }
 
 # Create EC2 instance
