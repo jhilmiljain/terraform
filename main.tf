@@ -1,7 +1,7 @@
 # Appending Terraform state to be stored in AWS-S3
 terraform {
   backend "s3" {
-    bucket = "terraform-bucket-pranays"
+    bucket = "jjainbucket"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
