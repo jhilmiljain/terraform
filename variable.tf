@@ -1,7 +1,7 @@
 ####
 variable "key_name" {
   description = "Private key name to use with instance"
-  default     = "terraform"
+  default     = "jhilmil"
 }
 
 variable "instance_type" {
@@ -13,5 +13,5 @@ variable "ami" {
   description = "Base AMI to launch the instances"
 
   # Bitnami NGINX AMI
-  default = "ami-021acbdb89706aa89"
+  default = "ami-0f422daffd39c945e"
 }
